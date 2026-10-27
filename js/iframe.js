@@ -11,8 +11,8 @@ if (embedParams.get("embed") === "true" && embedParams.get("scrollbar") !== "vis
 const previewToggleButton = document.querySelector('[aria-controls="slide-one-preview"]');
 const slideOnePreview = document.querySelector("#slide-one-preview");
 const previewIframe = slideOnePreview ? slideOnePreview.querySelector("iframe") : null;
-const previewSrcHiddenScrollbar = "https://miawski.github.io/T06_presentation/?embed=true&scrollbar=hidden";
-const previewSrcVisibleScrollbar = "https://miawski.github.io/T06_presentation/?embed=true&scrollbar=visible";
+const previewSrcHiddenScrollbar = "https://awaabmaalin.github.io/T06_presentation/?embed=true&scrollbar=hidden";
+const previewSrcVisibleScrollbar = "https://awaabmaalin.github.io/T06_presentation/?embed=true&scrollbar=visible";
 
 function setPreviewScrollbarMode(previewIsExpanded) {
   if (!previewIframe) {
